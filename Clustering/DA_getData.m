@@ -12,7 +12,7 @@ switch Dataset %contains code for the Data
         Days = 7;
         file = cell(1, Days);
         NameDays = {'Day 2', 'Day 2.5', 'Day 3', 'Day 3.5', 'Day 4', 'Day 4.5', 'Day 5'};
-        pathInputfull = fullfile(pathInput,'Data_18_08_14_clean');
+        pathInputfull = fullfile(pathInput,'Dataset_A', 'CSV_Exported');
         NamesData = {'No CHIR', 'CHIR 2-2.5','CHIR 2-3','CHIR 2-3.5', 'CHIR 2-4', 'CHIR 2-5',...
             'CHIR 2-5 FGF 2-3', 'CHIR 2-5 FGF 2-3.5', 'CHIR 2-5 FGF 2-4', 'CHIR 2-5 FGF 2-4.5', 'CHIR 2-5 FGF 2-5'};
         NameData = NamesData{DataIdx};
@@ -103,7 +103,7 @@ switch Dataset %contains code for the Data
         NumDays = [3,3,3,2,2,3,2,2,2];
         Days = NumDays(DataIdx);
         file = cell(1,Days);
-        pathInputfull = fullfile(pathInput,'Data_18_10_25');
+        pathInputfull = fullfile(pathInput,'Dataset_D', 'CSV_Exported');
         file{1} = fullfile(pathInputfull, 'D3 WT C_E1_E01_148.fcs .csv'); 
         NamesData = {'CHIR 2-3','CHIR 2-4','CHIR 2-5', 'CHIR 2-3 PD 3-4', 'CHIR 2-3 RA 3-4', 'CHIR 2-4 RA 4-5',...
             'CHIR 2-3.5', 'CHIR 2-3.5 PD 3.5-4.5', 'CHIR 2-3.5 RA 3.5-4.5'};
@@ -149,7 +149,7 @@ switch Dataset %contains code for the Data
         Days = 7;
         file = cell(1, Days);
         NameDays = {'Day 2', 'Day 2.5', 'Day 3', 'Day 3.5', 'Day 4', 'Day 4.5', 'Day 5'};
-        pathInputfull = fullfile(pathInput,'Data_15_4_20');
+        pathInputfull = fullfile(pathInput,'Dataset_B', 'CSV_Exported','Data_1' );
         NamesData = {'No CHIR', 'CHIR 2-2.5','CHIR 2-3', 'CHIR 2-5',...%'CHIR 2-5 FOX2',...
             'CHIR 2-3 0.1','CHIR 2-3 0.3','CHIR 2-3 0.5','0.1 CHIR 2-5',...
             'CHIR 1 Pulse', 'CHIR 2 Pulses'};
@@ -233,7 +233,7 @@ switch Dataset %contains code for the Data
         Days = 7;
         file = cell(1, Days);
         NameDays = {'Day 2', 'Day 2.5', 'Day 3', 'Day 3.5', 'Day 4', 'Day 4.5', 'Day 5'};
-        pathInputfull = fullfile(pathInput,'Data_15_4_20');
+        pathInputfull = fullfile(pathInput, 'Dataset_B', 'CSV_Exported','Data_3');
         NamesData = {'CHIR 2-5 FOXC2'};
         NameData = NamesData{DataIdx};
         Proteins = {'FOXC2','SOX1','SOX2','TBX6','CDX2'};
@@ -249,7 +249,7 @@ switch Dataset %contains code for the Data
         Days = 7;
         file = cell(1, Days);
         NameDays = {'Day 2', 'Day 2.5', 'Day 3', 'Day 3.5', 'Day 4', 'Day 4.5', 'Day 5'};
-        pathInputfull = fullfile(pathInput,'Data_15_4_20');
+        pathInputfull = fullfile(pathInput,'Dataset_B', 'CSV_Exported','Data_2');
         NamesData = {'No CHIR', 'CHIR 2-2.5','CHIR 2-3', 'CHIR 2-5',...
             'CHIR 2-3 0.1','CHIR 2-3 0.3','CHIR 2-3 0.5','0.1 CHIR 2-5',...
             'CHIR 1 Pulse', 'CHIR 2 Pulses'};
